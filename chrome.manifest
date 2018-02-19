@@ -1,0 +1,2 @@
+content     add-to-google-calendar    content/
+overlay chrome://messenger/content/messenger.xul chrome://add-to-google-calendar/content/add-to-google-calendar-overlay.xul

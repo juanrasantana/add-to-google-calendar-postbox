@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<overlay id="sample" 
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ <script type="application/javascript" src="chrome://add-to-google-calendar/content/add-to-google-calendar.js"/>
+ <popup id="messagePaneContext">
+  <menuitem 
+    id="addtogooglecalendarid" 
+    label="Add to Google Calendar"
+    hidden="true"/>
+ </popup>
+</overlay>

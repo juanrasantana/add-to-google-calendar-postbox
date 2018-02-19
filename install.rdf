@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>add-to-google-calendar@juanrasantana.com</em:id>
+    <em:name>Add to Google Calendar</em:name>
+    <em:description>Adds a context menu to create an event in Google Calendar from existing .ics files</em:description>
+    <em:version>1.0</em:version>
+    <em:creator>Juan Ramón Santana</em:creator>
+    <em:targetApplication>
+      <!-- Postbox -->
+      <Description>
+          <em:id>postbox@postbox-inc.com</em:id>
+          <em:minVersion>5.0</em:minVersion>
+          <em:maxVersion>5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>      
+</RDF>
